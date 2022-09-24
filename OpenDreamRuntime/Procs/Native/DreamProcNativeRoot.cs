@@ -471,8 +471,8 @@ namespace OpenDreamRuntime.Procs.Native {
         [DreamProc("findlasttext")]
         [DreamProcParameter("Haystack", Type = DreamValueType.String)]
         [DreamProcParameter("Needle", Type = DreamValueType.String)]
-        [DreamProcParameter("Start", Type = DreamValueType.Float, DefaultValue = 1)]
-        [DreamProcParameter("End", Type = DreamValueType.Float, DefaultValue = 0)]
+        [DreamProcParameter("Start", Type = DreamValueType.Float, DefaultValue = 0)]
+        [DreamProcParameter("End", Type = DreamValueType.Float, DefaultValue = 1)]
         public static DreamValue NativeProc_findlasttext(DreamObject instance, DreamObject usr, DreamProcArguments arguments) {
             // TODO This is for handling nulls, check if it works right for other bad types
             int failCount = 0;
@@ -507,8 +507,8 @@ namespace OpenDreamRuntime.Procs.Native {
         [DreamProc("findlasttextEx")]
         [DreamProcParameter("Haystack", Type = DreamValueType.String)]
         [DreamProcParameter("Needle", Type = DreamValueType.String)]
-        [DreamProcParameter("Start", Type = DreamValueType.Float, DefaultValue = 1)]
-        [DreamProcParameter("End", Type = DreamValueType.Float, DefaultValue = 0)]
+        [DreamProcParameter("Start", Type = DreamValueType.Float, DefaultValue = 0)]
+        [DreamProcParameter("End", Type = DreamValueType.Float, DefaultValue = 1)]
         public static DreamValue NativeProc_findlasttextEx(DreamObject instance, DreamObject usr, DreamProcArguments arguments) {
             // TODO This is for handling nulls, check if it works right for other bad types
             int failCount = 0;

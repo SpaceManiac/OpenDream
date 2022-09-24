@@ -10,7 +10,7 @@
 	set opendream_unimplemented = TRUE
 /proc/findlasttext_char(Haystack,Needle,Start=0,End=1)
 	set opendream_unimplemented = TRUE
-/proc/findlasttextEx_char(Haystack,Needle,Start=1,End=0)
+/proc/findlasttextEx_char(Haystack,Needle,Start=0,End=1)
 	set opendream_unimplemented = TRUE
 /proc/findtext_char(Haystack,Needle,Start=1,End=0)
 	set opendream_unimplemented = TRUE
